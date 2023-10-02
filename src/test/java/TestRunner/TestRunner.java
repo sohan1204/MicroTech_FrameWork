@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
         features = {"src/test/resources/features"},
         glue = {"stepDefinition"},
         tags = ("@Customer"),
-        dryRun = false,
+        dryRun = true,
         stepNotifications = true,
         strict = true,
         plugin = {"usage", "html:test-output", "html:target/cucumber-reports.html", "json:target/cucumber-report/cucumber.json"}
